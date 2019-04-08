@@ -25,6 +25,8 @@ namespace ComicBookGallery.Controllers
                 },
                 IssueNumber = 700,
                 SeriesTitle = "The Amazing Spider-Man",
+                Favorite = true
+                
             };
 
             return View(comicBook);
