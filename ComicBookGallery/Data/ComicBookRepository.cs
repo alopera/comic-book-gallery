@@ -79,10 +79,9 @@ namespace ComicBookGallery.Data
         }
 
 
-        public List<ComicBook> GetComicBooks()
+        public ComicBook[] GetComicBooks()
         {
-
-            return null;
+            return _comicBooks;
         }
 
     }
